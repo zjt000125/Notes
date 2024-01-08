@@ -1,7 +1,7 @@
 ### 工作区域和文件状态：
-![image-20231110160051614](D:\Software\Typora\images\image-20231110160051614.png)
+![image-20231110160051614](.\images\image-20231110160051614.png)
 
-![image-20231110160519750](D:\Software\Typora\images\image-20231110160519750.png)
+![image-20231110160519750](.\images\image-20231110160519750.png)
 
 配置用户名和邮箱
 
@@ -31,7 +31,7 @@ git log --oneline 查看简洁记录
 
 ### git reset回退版本
 
-![image-20231111151509606](D:\Software\Typora\images\image-20231111151509606.png)
+![image-20231111151509606](.\images\image-20231111151509606.png)
 
 git reset --soft cfb5530
 
@@ -73,17 +73,17 @@ git rm --cached file2.txt 仅仅在暂存区删除文件
 
 ### .gitignore忽略文件
 
-![image-20231111221200061](D:\Software\Typora\images\image-20231111221200061.png)
+![image-20231111221200061](.\images\image-20231111221200061.png)
 
 如果文件已经添加到暂存区，则无法ignore，必须从暂存区出来，.gitignore中的文件忽略才会生效
 
 空文件夹自动被忽略
 
-![image-20231111224251226](D:\Software\Typora\images\image-20231111224251226.png)
+![image-20231111224251226](.\images\image-20231111224251226.png)
 
-![image-20231111224458097](D:\Software\Typora\images\image-20231111224458097.png)
+![image-20231111224458097](.\images\image-20231111224458097.png)
 
-![image-20231111224603208](D:\Software\Typora\images\image-20231111224603208.png)
+![image-20231111224603208](.\images\image-20231111224603208.png)
 
 github/gitignore: A Collection ...     gitignore模版
 
@@ -156,7 +156,7 @@ git switch dev 专门用于切换分支
 
 git merge dev 将指定分支合并到当前分支
 
-![image-20231114002508253](D:\Software\Typora\images\image-20231114002508253.png)
+![image-20231114002508253](.\images\image-20231114002508253.png)
 
 git log --graph --oneline --decorate --all 查看分支结构图
 
@@ -178,6 +178,6 @@ git switch dev
 
 git rebase main  (将)当前分支拼接到main分支上
 
-![image-20231114105813487](D:\Software\Typora\images\image-20231114105813487.png)
+![image-20231114105813487](.\images\image-20231114105813487.png)
 
 alias graph='git log --graph --oneline --decorate --all' 将长命令自定义别名，以后直接输入graph即可查看
