@@ -2,7 +2,7 @@
 
 通过以下内容推断，网络预测得到以及最终存储的相机位姿为camera to world
 
-![pose_inference_droid_slam](./pose_inference_droid_slam.png)
+![pose_inference_droid_slam](./images/pose_inference_droid_slam.png)
 
 ### 坐标系
 
