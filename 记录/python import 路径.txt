@@ -1,0 +1,16 @@
+假设文件目录结构如下：
+-- dir0
+　　| file1.py
+　　| file2.py
+　　| dir3
+           | __init__.py
+　　　| file3.py
+　　| dir4
+           | __init__.py
+　　　| file4.py
+
+在.../dir0/目录下，运行file3.py文件（项目常用运行位置，在主目录下）
+
+则file3.py, file4.py中导包的初始位置都是.../dir0/
+例如file3.py要导入file4.py中的包，则需要写：
+from dir3.file3 import func

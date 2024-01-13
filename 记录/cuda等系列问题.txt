@@ -1,0 +1,24 @@
+首先查看显卡型号(e.g.3090)
+https://blog.csdn.net/TFATS/article/details/109161006
+
+根据显卡型号查找可使用的驱动版本（驱动版本向下兼容，一般大于某一版本的驱动都可以装）
+https://www.nvidia.com/en-gb/geforce/drivers/
+
+根据驱动版本确定可安装的cuda版本（就是cuda toolkit版本）
+版本对应：https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
+cuda toolkit安装：https://developer.nvidia.com/cuda-toolkit-archive
+注：
+1. conda安装和系统安装cuda toolkit不一样，前者只安装了和深度学习框架相关的内容，后者则包含了完整的SDK
+2. cuda默认安装路径为 /usr/local/cuda
+3.  可以通过修改环境变量切换系统cuda版本
+4. nvcc --version 显示当前正在使用的cuda版本
+5. nvidia-smi 显示的是驱动版本和官方推荐的cuda版本（不是可兼容的最高版本） 
+
+cudnn属于深度学习包，系统安装和conda安装应该是一样的，推荐conda安装，更灵活
+
+cuda toolkit非完整版也可以用conda安装，其版本决定了在pytorch等框架运行时看到的cuda版本，可以根据需要安装不同版本，同样比较灵活
+
+参考：
+https://blog.csdn.net/qq_41094058/article/details/116207333
+https://blog.csdn.net/qq_42406643/article/details/109545766
+https://cloud.tencent.com/developer/article/1536738
