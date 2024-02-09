@@ -1,0 +1,2 @@
+在该网站下载网卡驱动：https://www.intel.cn/content/www/cn/zh/download/19351/windows-10-and-windows-11-wi-fi-drivers-for-intel-wireless-adapters.html
+使用移动盘拷贝到目标机器，执行即可安装驱动
