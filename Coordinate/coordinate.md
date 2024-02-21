@@ -24,4 +24,22 @@ pose: **camera to world**
 
 x 轴指向右侧，y 轴指向上方，z 轴指向相机前方反方向
 
-pose: **world to camera**
+pose: **camera to world**
+
+### 3D Gaussian Splatting
+
+整理后的数据：
+
+```python
+# world to camera, but R is transposed, T is the original
+sceneLoadTypeCallbacks = {
+
+    "Colmap": readColmapSceneInfo,
+
+    "Blender" : readNerfSyntheticInfo, 
+
+    "Customer" : readCustomerSceneInfo
+
+}
+```
+
