@@ -264,3 +264,52 @@ Note: The core of bootstrap is to sample for multi times from the empirical dist
 ### 9.12 Checking Assumptions
 
 ![image-20240213115522551](./images/image-20240213115522551.png)
+
+## 13. Linear and Logistic Regression
+
+![image-20240301173600539](./images/image-20240301173600539.png)
+
+### 13.1 Simple Linear Regression
+
+![image-20240301173801056](./images/image-20240301173801056.png)
+
+![image-20240301173817575](./images/image-20240301173817575.png)
+
+![image-20240301174027905](./images/image-20240301174027905.png)
+
+![image-20240301174114163](./images/image-20240301174114163.png)
+
+### 13.2 Least Squares and Maximum Likelihood
+
+![image-20240301180706128](./images/image-20240301180706128.png)
+
+![image-20240301180731450](./images/image-20240301180731450.png)
+
+![image-20240301180755276](./images/image-20240301180755276.png)
+
+### 13.3 Properties of the Least Squares Estimators
+
+![image-20240301181800465](./images/image-20240301181800465.png)
+
+![image-20240301181832079](./images/image-20240301181832079.png)
+
+![image-20240301181907472](./images/image-20240301181907472.png)
+
+### 13.4 Prediction
+
+![image-20240301182229745](./images/image-20240301182229745.png)
+
+### 13.5 Multiple Regression
+
+![image-20240303152707546](./images/image-20240303152707546.png)
+
+![image-20240303152737086](./images/image-20240303152737086.png)
+
+![image-20240303152751245](./images/image-20240303152751245.png)
+
+### 13.6 Model Selection
+
+![image-20240303152835553](./images/image-20240303152835553.png)
+
+![image-20240303152900069](./images/image-20240303152900069.png)
+
