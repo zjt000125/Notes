@@ -1,3 +1,25 @@
+## 10 Hypothesis Testing and p-values
+
+165
+
+![image-20240305211402820](C:\Users\zjt00\Desktop\Notes\Statistic Inference\images\image-20240305211402820.png)
+
+### 10.1 The Wald Test
+
+168
+
+### 10.2 p-values
+
+172
+
+## 11 Bayesian Inference
+
+191
+
+### 11.1 The Bayesian Philosophy
+
+
+
 ### 13.5 Multiple Regression
 
 232

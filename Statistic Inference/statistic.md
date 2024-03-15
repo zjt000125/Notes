@@ -1,5 +1,3 @@
-
-
 ## 4. Inequalities
 
 ### 4.1 Probability Inequalities
