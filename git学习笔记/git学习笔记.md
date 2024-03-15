@@ -126,6 +126,8 @@ nameserver 8.8.8.8
 
 git remote add origin git@github.com:zjt000125/first-repo.git   关联指令
 
+这里的origin是对git@github.com:zjt000125/first-repo.git 这一远程仓库的代号，后续的git push -u origin main就是将本地main分支和远程main分支关联，git push -u origin dev是将本地dev分支和远程dev分支关联（自动在远程创建该分支）
+
 git remote -v  查看当前仓库所对应的远程仓库的别名和地址
 
 git branch -M main 指定分支的名称为main
@@ -181,3 +183,10 @@ git rebase main  (将)当前分支拼接到main分支上
 ![image-20231114105813487](.\images\image-20231114105813487.png)
 
 alias graph='git log --graph --oneline --decorate --all' 将长命令自定义别名，以后直接输入graph即可查看
+
+### git 仓库嵌套
+
+如果不是非常独立的单元，建议不要嵌套，删除.git文件然后将整个子项目复制到包含.git的母项目文件夹下，使用母项目的git对所有文件（包括子项目中的）进行统一管理。
+
+如果是非常独立的子项目，则需要先将该子项目单独上传到github，得到链接（或者该项目本身就是从github上下载下来的），然后再显示声明添加子仓库到母项目仓库中（输入相关github链接）
+

@@ -14,3 +14,11 @@
 则file3.py, file4.py中导包的初始位置都是.../dir0/
 例如file3.py要导入file4.py中的包，则需要写：
 from dir3.file3 import func
+
+如果报错，有两种解决办法：
+# 临时修改
+export PYTHONPATH="${PYTHONPATH}:/path/to/your/project/python/slot_attention_pytorch/"
+# 长期修改
+import sys
+sys.path
+sys.path.append('/home/jiantong/project/python/SAPI/JiantongZhao/slot_attention_pl')  # 这里需要是绝对路径，不要用~简化
