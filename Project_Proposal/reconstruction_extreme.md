@@ -13,6 +13,12 @@
 
 * Metashape(software without code)
 
+### Better Image Matching
+
+* [DKM: Dense Kernelized Feature Matching for Geometry Estimation](https://github.com/Parskatt/DKM)
+
+* [GIM: LEARNING GENERALIZABLE IMAGE MATCHER FROM INTERNET VIDEOS](https://github.com/xuelunshen/gim)
+
 ### Feedforward Method
 
 * [PF-LRM](https://totoro97.github.io/pf-lrm/)
@@ -48,6 +54,8 @@
 
 ### Depth Estimation Considering Scale
 
+* [Range-Agnostic Multi-View Depth Estimation With Keyframe Selection](https://github.com/andreaconti/ramdepth?tab=readme-ov-file)
+
 ### Point Cloud Generation
 
 * [Shape Generation and Completion Through Point-Voxel Diffusion](https://github.com/alexzhou907/PVD)
@@ -57,6 +65,8 @@
 
 * [GaussianPro: 3D Gaussian Splatting with Progressive Propagation](https://github.com/kcheng1021/GaussianPro)
 * [TRIPS: Trilinear Point Splatting for Real-Time Radiance Field Rendering](https://github.com/lfranke/trips)
+* [Relaxing Accurate Initialization Constraint for 3D Gaussian Splatting](https://github.com/KU-CVLAB/RAIN-GS)
+* [gaussian-mesh-splatting](https://github.com/waczjoan/gaussian-mesh-splatting)
 
 ### Random Idea
 
