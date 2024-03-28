@@ -1,3 +1,5 @@
+## Method pools
+
 ### Slam
 
 * ORB-Slam-3 Improvement**(hard)**: https://github.com/zeal-up/ORB_SLAM_Tracking
@@ -18,6 +20,10 @@
 * [DKM: Dense Kernelized Feature Matching for Geometry Estimation](https://github.com/Parskatt/DKM)
 
 * [GIM: LEARNING GENERALIZABLE IMAGE MATCHER FROM INTERNET VIDEOS](https://github.com/xuelunshen/gim)
+
+### Differentiable image matching and structure from motion
+
+* [End2End Multi-View Feature Matching with Differentiable Pose Optimization](https://github.com/barbararoessle/e2e_multi_view_matching)
 
 ### Feedforward Method
 
@@ -80,3 +86,25 @@
 
 * 3d gaussian viewer with camera pose: https://github.com/lfranke/trips
 * 
+
+## Possible Improvements on Droid-Slam
+
+- [ ] depth取消降采样
+- [ ] mean和std固定参数修改
+- [ ] 
+
+## Experiment and Development Plan
+
+- [x] 测试gaussian-splatting slam 在cup上的效果
+- [x] 修改超参数，看看gaussian-splatting slam能否更好
+- [x] 彻底看明白droid-slam各处细节
+- [ ] 用debug模式跑一遍代码流程（graph初始化+key frame adding+key frame removal）
+- [ ] 给droid-slam的优化过程加上mask，查看是否有提升
+- [ ] 给droid-slam加上后端全局BA，查看效果是否有提升
+- [ ] 根据论文描述，修改超参数测试droid-slam是否有提升
+- [ ] 用optical-flow方法得到两视角匹配结果
+
+
+
+
+

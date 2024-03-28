@@ -87,15 +87,11 @@ In summary, while both R-CNN and Fast R-CNN aim at object detection through regi
 
 #### (a) Class-specific proposals (top-down).
 
-
-
 #### (b) Class-agnostic proposals (bottom-up).
-
-
 
 #### (c) Both class-specific and class-agnostic proposals (top-down and bottom-up).
 
-
+The selective search proposal generation method produces **(b) Class-agnostic proposals (bottom-up).** Selective search is a technique used in object detection to identify regions in an image that could potentially contain objects. Unlike methods that generate class-specific proposals, which predict regions based on known classes, selective search is designed to be class-agnostic. It works by segmenting the image into a large number of initial regions and then iteratively merging these regions based on color, texture, size, and shape compatibility. The goal is to produce a set of region proposals that are likely to contain objects, without prior knowledge of what the objects might be. This bottom-up approach allows for flexibility in detecting a wide variety of objects without being constrained by a predefined set of classes.
 
 ### 11. Compute the intersection over union between two bounding boxes that are placed at the following four co-ordinates: box1 at {(2,2), (2,4), (4,2), (4,4)} and box2 at {(3,3, (3,5), (7,3), (7,5)}.
 
@@ -143,7 +139,17 @@ Object proposal generation methods aim to efficiently generate a diverse set of 
 
 ### 16. Name any five applications of object detection in airbone sensors?
 
+Five applications of object detection in airborne sensors include:
 
+1. **Agriculture:** Airborne sensors equipped with object detection capabilities are used in agriculture for tasks like crop monitoring, disease detection, and yield estimation.
+   
+2. **Environmental Monitoring:** Airborne sensors can aid in environmental monitoring by detecting and tracking wildlife, assessing vegetation health, and monitoring changes in land use.
+
+3. **Disaster Response:** Object detection in airborne sensors is crucial for disaster response efforts, enabling the identification of survivors, damaged infrastructure, and hazards in disaster-stricken areas.
+
+4. **Security and Surveillance:** Airborne sensors with object detection capabilities are utilized for security and surveillance purposes, such as monitoring borders, tracking illegal activities, and enhancing public safety.
+
+5. **Infrastructure Inspection:** Airborne sensors can be used for inspecting critical infrastructure like bridges, power lines, and pipelines, detecting anomalies, and ensuring structural integrity.
 
 ### 17. What are the issues with Conventional CNN-based Object Detectors? How these issues are addressed in DETR?
 
@@ -165,7 +171,15 @@ Object proposal generation methods aim to efficiently generate a diverse set of 
 
 ### 20. Explain the key steps of RoI Pooling operation in two-stage object detectors.
 
+RoI (Region of Interest) Pooling is a crucial operation in two-stage object detectors like Faster R-CNN. The key steps involved in RoI Pooling are as follows:
 
+1. **Region Proposal Generation:** Initially, the Region Proposal Network (RPN) identifies potential object regions within an image and generates region proposals based on these regions.
+2. **RoI Pooling Layer:** The RoI pooling layer takes the region proposals from the RPN and aligns them to a fixed spatial extent, ensuring that features extracted from these regions are of a consistent size for further processing.
+3. **Spatial Subdivision:** The RoI pooling operation divides each region proposal into a fixed grid of sub-regions. This subdivision allows for the extraction of features from different parts of the region while maintaining spatial relationships.
+4. **Feature Extraction:** Within each sub-region, RoI pooling extracts features using a pooling operation (e.g., max pooling or average pooling) to summarize the information present in that sub-region.
+5. **Output Representation:** Finally, the output of the RoI pooling operation is a fixed-size feature map for each region proposal, containing relevant features that can be used for subsequent tasks like object classification and bounding box regression.
+
+By following these key steps, RoI Pooling plays a vital role in standardizing the features extracted from region proposals, enabling effective object detection and localization in two-stage detectors like Faster R-CNN.
 
 ### 21. Unlike CNNs, why do vanilla transformers generally not work well for small datasets?
 
