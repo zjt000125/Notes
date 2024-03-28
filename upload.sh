@@ -1,3 +1,4 @@
+#!/bin/bash
 commit_description=$1
 
 git add .
